@@ -10,7 +10,7 @@ import requests
 import sys
 
 
-
+#This function downloads the html files from the website for the given range of year
 def retrieve_html(startyear,endyear):
     for year in range(startyear,endyear):
        
